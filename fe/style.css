@@ -1,0 +1,5 @@
+p {
+  font-size: 16px; /* Ukuran font menjadi 16 piksel */
+  color: #d10e0e;    /* Warna teks menjadi abu-abu gelap */
+  font-family: Arial, sans-serif; /* Jenis font Arial dengan fallback sans-serif */
+}
