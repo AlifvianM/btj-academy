@@ -1,11 +1,11 @@
-from typing import List
+from typing import List, Optional
 from pydantic import BaseModel
 
 class PredictionParams(BaseModel):
-    sepal_length: int = 0
-    sepal_width: int = 0
-    petal_length: int = 0
-    petal_width: int = 0
+    sepal_length: int
+    sepal_width: int
+    petal_length: int
+    petal_width: int
 
 class PredictionResult(BaseModel):
     message: str
