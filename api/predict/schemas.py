@@ -7,6 +7,8 @@ class PredictionParams(BaseModel):
     petal_length: int
     petal_width: int
 
+    
+
 class PredictionResult(BaseModel):
     message: str
     result: List[int]
