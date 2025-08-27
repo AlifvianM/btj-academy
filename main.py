@@ -16,5 +16,5 @@ app.include_router(predict_router)
 app.include_router(scheduler_router)
 
 @app.get("/")
-def read_root():
+def health_check():
     return {"Hello": "World"}

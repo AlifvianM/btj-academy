@@ -11,7 +11,7 @@ URL=os.environ.get('BE_APP_HOST')
 PORT=os.getenv('BE_APP_PORT')
 
 def get_pred(data: Dict):
-    req = requests.post(url=f"http://{URL}:{PORT}/predict", json=data)
+    req = requests.post(url=f"http://{URL}:{PORT}/predict_v2", json=data)
     result = req.json()
 
     message = result.get("message", "")
